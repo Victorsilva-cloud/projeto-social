@@ -41,11 +41,6 @@ iframe#tela{
     height: 471px;
 }
 
-section#redes img:hover{
-    border: 2px solid rgba(255, 255, 255, 0.603);
-    transform: translate(-3px, -3px);
-    transition: transform .4s, border .1s;
-}
 section#redes{
     text-align: right;
 }
@@ -57,4 +52,10 @@ section#redes img {
 */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
     box-sizing: border-box;
+}
+
+section#redes img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.603);
+    transform: translate(-3px, -3px);
+    transition: transform .4s, border .1s;
 }
